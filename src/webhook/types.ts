@@ -14,5 +14,9 @@ export interface WatchCampaignEvent {
     subject: string;
     deviceId: string;
     campaignUrl: string;
+    notification: {
+      title: string | null;
+      body: string | null;
+    };
   };
 }
